@@ -1,16 +1,18 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
 import "../styles/projects.css";
-import Proj1 from "../assets/memorygame.png";
-import Proj2 from "../assets/weather-img.png";
+import { projects } from "../helpers/ProjectList";
 
 const Projects = () => {
   return (
     <div className="projects">
       <h1>My personal projects</h1>
-      <div className="projectsList">
-        <ProjectItem name="Memory game" image={Proj1} />
-        <ProjectItem name="Weather forecast" image={Proj2} />
+      <div className="projectList">
+        {projects.map((project, index) => {
+          return (
+            <ProjectItem id={index} name={project.name} image={project.image} />
+          );
+        })}
       </div>
     </div>
   );
