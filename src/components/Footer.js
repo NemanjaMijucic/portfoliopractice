@@ -8,12 +8,36 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <a
+          href="https://www.instagram.com/nemanja.mijucic/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <InstagramIcon />
+        </a>
+        <a
+          href="https://twitter.com/Mijucic87"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <TwitterIcon />
+        </a>
+        <a
+          href="https://www.facebook.com/nemanja.mijucic.7"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FacebookIcon />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nemanja-mijucic-228876225/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <LinkedInIcon />
+        </a>
       </div>
-      <p>&copy; 2020</p>
+      <p>&copy; 2021</p>
     </div>
   );
 };
