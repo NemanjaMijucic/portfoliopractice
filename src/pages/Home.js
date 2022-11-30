@@ -15,9 +15,23 @@ const Home = () => {
               A FrontEnd developer with a pasion for learning and creating
               websites
             </p>
-            <LinkedInIcon />
-            <GitHubIcon />
-            <EmailIcon />
+            <a
+              href="https://www.linkedin.com/in/nemanja-mijucic-228876225/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
+            <a
+              href="https://github.com/NemanjaMijucic"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon />
+            </a>
+            <a href="mailto:nemanja.mijucic@gmail.com">
+              <EmailIcon />
+            </a>
           </div>
         </div>
       </div>
@@ -27,11 +41,6 @@ const Home = () => {
           <li className="item">
             <h2>Front-End</h2>
             <span>JavaScript, HTML, CSS, React.js, Bootstrap, TailwindCSS</span>
-          </li>
-
-          <li className="item">
-            <h2>Languages</h2>
-            <span> JavaScript, PHP, SQL</span>
           </li>
         </ol>
       </div>
